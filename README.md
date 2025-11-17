@@ -4,6 +4,14 @@
   <img src="assets/demo1.png" alt="Emoji Styler Demo" width="800">
 </p>
 
+<p align="center">
+  <img src="assets/demo2.png" alt="Emoji Styler Demo 2" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/demo3.png" alt="Emoji Styler Demo 3" width="800">
+</p>
+
 Transform boring text into fun emoji styles! Make your text stand out with kawaii, hacker, neon, cyberpunk, and minimal styles.
 
 ## Features
