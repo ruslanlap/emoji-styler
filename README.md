@@ -1,5 +1,9 @@
 # Emoji Styler ✨
 
+<p align="center">
+  <img src="assets/demo1.png" alt="Emoji Styler Demo" width="800">
+</p>
+
 Transform boring text into fun emoji styles! Make your text stand out with kawaii, hacker, neon, cyberpunk, and minimal styles.
 
 ## Features
@@ -60,35 +64,45 @@ for style in ['hacker', 'neon', 'minimal']:
 ## Available Styles
 
 ### Cute (default)
+
 Kawaii aesthetic with hearts and sparkles
+
 ```
 Input:  Hello world
 Output: ✨ 💖 H 💫 e 🌸 l 💕 l 🌟 o   💖 w 💫 o 🌸 r 💕 l 🌟 d ✨
 ```
 
 ### Hacker
+
 1337 speak with letter substitutions
+
 ```
 Input:  Hello world
 Output: ⚡ H3ll0 w0rld ⚡
 ```
 
 ### Neon
+
 Rainbow glow vibes with uppercase
+
 ```
 Input:  Hello world
 Output: 🌈 H E L L O 🌟 W O R L D 🌈
 ```
 
 ### Cyberpunk
+
 Futuristic brackets and lightning
+
 ```
 Input:  Hello world
 Output: ⚡ ⟨H⟩⟨E⟩⟨L⟩⟨L⟩⟨O⟩⚡⟨W⟩⟨O⟩⟨R⟩⟨L⟩⟨D⟩ ⚡
 ```
 
 ### Minimal
+
 Clean aesthetic with dots
+
 ```
 Input:  Hello world
 Output: H・e・l・l・o ・o・r・l・d
@@ -99,6 +113,7 @@ Output: H・e・l・l・o ・o・r・l・d
 Try it online: [emoji-styler.vercel.app](https://emoji-styler.vercel.app)
 
 The web demo is built with Next.js and TypeScript, featuring:
+
 - Interactive text styling
 - Beautiful Catppuccin Macchiato theme
 - Mobile-friendly responsive design
@@ -220,6 +235,7 @@ Or connect your GitHub repo to Vercel dashboard for automatic deployments.
 ## Contributing
 
 Contributions welcome! Feel free to:
+
 - Suggest new styles
 - Report bugs
 - Submit pull requests
