@@ -2,9 +2,10 @@
 Command-line interface for emoji-styler.
 """
 
-import sys
 import argparse
-from emoji_styler.core import style_text, get_available_styles
+import sys
+
+from emoji_styler.core import get_available_styles, style_text
 
 
 def main():
@@ -18,33 +19,24 @@ Examples:
   emoji-styler "Hello world" --style hacker
   emoji-styler "PowerToys Run" --style cyberpunk
   emoji-styler --list-styles
-        """
+        """,
     )
 
-    parser.add_argument(
-        "text",
-        nargs="?",
-        help="Text to style"
-    )
+    parser.add_argument("text", nargs="?", help="Text to style")
 
     parser.add_argument(
-        "-s", "--style",
+        "-s",
+        "--style",
         default="cute",
         choices=get_available_styles(),
-        help="Style to apply (default: cute)"
+        help="Style to apply (default: cute)",
     )
 
     parser.add_argument(
-        "-l", "--list-styles",
-        action="store_true",
-        help="List all available styles"
+        "-l", "--list-styles", action="store_true", help="List all available styles"
     )
 
-    parser.add_argument(
-        "-v", "--version",
-        action="version",
-        version="%(prog)s 0.1.0"
-    )
+    parser.add_argument("-v", "--version", action="version", version="%(prog)s 0.0.1")
 
     args = parser.parse_args()
 
