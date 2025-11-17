@@ -1,6 +1,6 @@
 # Emoji Styler ✨
 
-- 🌐 **Web demo**: Try it online at [emoji-styler.vercel.app](https://emoji-styler-5tm03iya6-ruslantodo.vercel.app)
+- 🌐 **Web demo**: Try it online at [emoji-styler.vercel.app](https://emoji-styler.vercel.app/)
 
 <p align="center">
   <img src="assets/demo1.png" alt="Emoji Styler Demo" width="800">
