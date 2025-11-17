@@ -1,5 +1,7 @@
 # Emoji Styler ✨
 
+- 🌐 **Web demo**: Try it online at [emoji-styler.vercel.app](https://emoji-styler-5tm03iya6-ruslantodo.vercel.app)
+
 <p align="center">
   <img src="assets/demo1.png" alt="Emoji Styler Demo" width="800">
 </p>
@@ -20,7 +22,7 @@ Transform boring text into fun emoji styles! Make your text stand out with kawai
 - 🐍 **Python API**: Use in your Python projects
 - 💻 **CLI tool**: Style text from command line
 - 🚀 **Lightweight**: Zero dependencies
-- 🌐 **Web demo**: Try it online at [emoji-styler.vercel.app](https://emoji-styler.vercel.app) (coming soon)
+- 🌐 **Web demo**: Try it online at [emoji-styler.vercel.app](https://emoji-styler-g3zyvdtk7-ruslantodo.vercel.app)
 
 ## Installation
 
