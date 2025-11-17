@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emoji-styler.vercel.app/sitemap.xml
